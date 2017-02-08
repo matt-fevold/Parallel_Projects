@@ -1,0 +1,3 @@
+because I can't remember...
+
+ len_min len_max table_index chain_len chain_num char_set thread_num output_file

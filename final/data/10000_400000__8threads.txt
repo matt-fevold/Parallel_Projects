@@ -1,0 +1,7 @@
+2 threads : 10000 - 20000  -> 699.679 seconds
+2 threads : 10000 - 400000 -> 1088.93 seconds
+4 threads : 10000 - 400000 -> 888.837 seconds
+8 threads : 10000 - 400000 -> 884.261 seconds
+1 thread  : 10000 - 400000 -> ???.???
+
+Once I get 1 thread base, create graphs on this.

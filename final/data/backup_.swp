@@ -1,0 +1,28 @@
+threads : chain_len : chain_num -> execution_time
+
+~~~~~~~~~~~Baseline~~~~~~~~~~~~~~~~~~~~~~
+
+2,1000,2000 -> 6.94117
+2,1000,2000 -> 7.07321
+2,1000,2000 -> 7.22658
+
+Average : 7.08032	An increase of 76.98x over scale_baseline
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ INCREASE len x10 from Baseline
+
+2,10000,2000 -> 67.5745 
+2,10000,2000 -> 68.1987
+2,10000,2000 -> 68.3029
+
+Average : 68.0253	An avg time increase of 9.6x
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ INCREASE num x10 from Baseline
+
+2,1000,20000 -> 70.6853
+2,1000,20000 -> 71.1779
+2,1000,20000 -> 76.2254
+
+Average : 72.6962 	An avg time increase of 10.26x
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
